@@ -4,6 +4,7 @@
 
 ## ✅ Basic Flow
 **Client → Express.js → Business Logic/API → Response**
+![Screenshot 2025-07-05 174920](https://github.com/user-attachments/assets/c23fdece-21d5-4413-b04f-b33729637fbd)
 
 ---
 
