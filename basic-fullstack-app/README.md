@@ -8,6 +8,10 @@ This is a **beginner-friendly full-stack web application** using:
 - **Development Tools:** Vite Proxy to avoid CORS issues
 
 ---
+## Screenshot
+![Screenshot 2025-07-07 183937](https://github.com/user-attachments/assets/ca035f19-9f2a-4cad-aa2a-9d14c1591a0c)
+
+---
 
 ## 📁 Project Structure
 
