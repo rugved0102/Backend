@@ -28,3 +28,13 @@ const port = process.env.PORT || 3000;
 app.get('/', (req, res) => res.send('Hello World!'));
 app.listen(port, () => console.log(`Running on ${port}`));
 ```
+## Proxy Configuration to Avoid CORS
+
+> When the frontend and backend are running on different ports (e.g., 5173 and 3000), you may face **CORS** issues. Vite allows us to set a **proxy** in `vite.config.js`:
+```js
+server: {
+  proxy: {
+    '/api': 'http://localhost:3000',
+  }
+}
+```
