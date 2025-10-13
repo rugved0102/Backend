@@ -1,0 +1,29 @@
+jb hame koi authetication karna hai tb freshers bina puche start kar dete hai code likhna but pehele ye sochna padta hai ki kya store karna hai. Kaise karna hai vo to bohot dur ki baat hogai.
+
+Pehle sochna padta hai kya store karna hai
+
+Authentication design karte waqt sabse pehle aapko decide karna hai:
+
+User se kya details chahiye?
+
+Basic: name, email, password
+
+Optional: phone, profile photo, role (admin/user), etc.
+
+Password ko kaise handle karna hai?
+
+Kabhi bhi plain text mein store ❌ mat karo.
+
+Always hash (e.g., bcrypt) + salt.
+
+Authentication ka type kya hoga?
+
+Session-based (cookie + server memory)
+
+Token-based (JWT / OAuth)
+
+Authorization alag sochna hai (yani ki kisko kya access milega).
+
+Example: /admin route sirf admin role ke liye.
+
+Normal user ko sirf apne data ka access.
