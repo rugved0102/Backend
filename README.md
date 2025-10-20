@@ -1,3 +1,49 @@
+<!-- # Backend Learning Journal
+
+This repository is my personal learning log for backend development. It contains small projects, experiments, notes, and examples that help me learn concepts like REST APIs, authentication, databases, testing, and deployment.
+
+## Goals
+- Track hands-on learning and experiments.
+- Keep runnable examples for common backend patterns.
+- Record notes, caveats, and references for future review.
+- Build a portfolio of small, focused projects.
+
+## What you'll find here
+- /examples — small, focused example projects (one per folder) using different stacks.
+- /notes — short markdown notes about concepts, commands, troubleshooting.
+- /projects — larger mini-projects that combine multiple concepts.
+- /docs — reference material, API sketches, and architecture diagrams.
+- Dockerfiles and docker-compose examples for local testing.
+- CI config and simple tests where applicable.
+
+## Sample stacks (examples you might include)
+- Node.js + Express + PostgreSQL
+- Python + FastAPI + SQLite/Postgres
+- Django REST Framework
+- Java + Spring Boot
+- Go net/http or Gin
+
+## Quick start
+1. Clone the repo:
+   git clone https://github.com/your-username/Backend.git
+2. Browse the folder for the stack you want to try, e.g. `examples/node-express`.
+3. Each example has its own README with install/run instructions (look for README.md inside the example).
+4. Use Docker where available to run services quickly:
+   docker-compose up --build
+
+## How I organize experiments
+- Each experiment is self-contained in its folder with a README explaining objectives, steps, and lessons learned.
+- Commits are frequent and small, with descriptive messages about what I learned or changed.
+
+## Contributing / Notes to future me
+- This is primarily a personal learning repo; feel free to open PRs or suggest improvements.
+- If you reuse code from tutorials, note the source in the example's README.
+- Tag TODOs and follow-up tasks with issues or TODO.md.
+
+## Contact
+- GitHub: @rugved0102 -->
+
+
 # Backend
 
 # ⚡ Express.js Backend 
