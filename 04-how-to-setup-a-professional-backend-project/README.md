@@ -12,3 +12,10 @@
    package.json me "type": "module" add karna padega agar ES6 Modules use karna hai to
 10. nodemon for auto restart server during development
 11. "dev" : "nodemon src/index.js" in scripts of package.json
+12. in src/
+    touch app.js constants.js index.js
+    mkdir controllers utils db models middlewares routes
+13. prettier for code formatting
+    npm install -D prettier
+    .prettierrc file for prettier configuration
+    .prettierignore file for ignoring files/folders from formatting
